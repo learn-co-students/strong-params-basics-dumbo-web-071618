@@ -58,7 +58,7 @@ def update
 end
 ```
 
-If you go back to the web browser and click refresh you'll see everything is working for both the `create` and `update` actions. Running the Rspec tests reveals that our specs are now passing again as well. You'll notice that our `update` only has a `:title` in the `permit` method. This is because, given our forms, we only want the `title` to be submitable! If you go and do your nefarious hack again, it won't work. Thwarted!!
+If you go back to the web browser and click refresh you'll see everything is working for both the `create` and `update` actions. Running the Rspec tests reveals that our specs are now passing again as well. You'll notice that our `update` only has a `:title` in the `permit` method. This is because, given our forms, we only want the `title` to be submittable! If you go and do your nefarious hack again, it won't work. Thwarted!!
 
 ### Permit vs. Require
 
